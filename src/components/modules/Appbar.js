@@ -52,7 +52,7 @@ class Appbar extends Component{
             <AppBar className={classes.appbar} positio="static">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        <Link className={classes.button} href="javascript:void(0)" onClick={() => history.push('/')}>Films</Link>
+                        <Link className={classes.button} onClick={() => history.push('/')}>Films</Link>
                     </Typography>
                     <Button className={classes.button} color="inherit" onClick={() => history.push('/create-post')}>Add Post</Button>
                     {

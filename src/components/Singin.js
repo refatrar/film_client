@@ -135,7 +135,7 @@ class Singin extends Component{
                                     </Link>
                                 </Grid>
                                 <Grid item>
-                                    <Link href="javascript:void(0)" onClick={() => history.push('/signup')} variant="body2">
+                                    <Link onClick={() => history.push('/signup')} variant="body2">
                                         {"Don't have an account? Sign Up"}
                                     </Link>
                                 </Grid>
